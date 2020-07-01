@@ -1,0 +1,27 @@
+{
+    "name": "andpop/php-project-1",
+    "description": "GenDiff from Hexlet",
+    "authors": [
+        {
+            "name": "Andrey Popov",
+            "email": "andpop@mail.ru"
+        }
+    ],
+    "bin": [
+        "bin/gendiff"
+    ],
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpcbf": "phpcbf"
+    },
+    "autoload": {
+        "files": [
+        ]
+    },
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.11"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5.5"
+    }
+}
