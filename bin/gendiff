@@ -10,9 +10,11 @@ if (file_exists($loadPath1)) {
     include_once $loadPath2;
 }
 
+use function Gendiff\Description\showDescription;
 //use function BrainGames\Games\Calc\runCalcGame;
 
 //runCalcGame();
 
-echo "Hello!!";
+showDescription();
+//echo "Hello!!";
 
