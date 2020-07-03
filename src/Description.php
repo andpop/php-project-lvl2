@@ -16,9 +16,5 @@ DOC;
 function showDescription()
 {
     $args = \Docopt::handle(DOC, ['version' => "0.1"]);
-    /* var_dump($args); */
-    /* foreach ($args as $k=>$v) { */
-    /*     echo $k . ': ' . $v . PHP_EOL; */ 
-    /* } */
 }
 
